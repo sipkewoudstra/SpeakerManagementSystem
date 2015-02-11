@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="m47z4w" name="SpeakerManagementSystem" projectType="guiapp"
+              version="1.0.0" bundleIdentifier="com.yourcompany.SpeakerManagementSystem"
+              includeBinaryInAppConfig="1" jucerVersion="3.1.0">
+  <MAINGROUP id="xgf3N8" name="SpeakerManagementSystem">
+    <GROUP id="{D3552966-8C83-C4D4-0334-1FADA2F8C90A}" name="Source">
+      <GROUP id="{77E607EA-0E6B-87C7-35FB-9AE03D956C6E}" name="FilterLibrary">
+        <GROUP id="{44CD8D62-7B7D-C3C6-C625-82294088616A}" name="DspFilters">
+          <FILE id="F4CZRM" name="Bessel.cpp" compile="1" resource="0" file="../../C++ /DSPFilters-master/shared/DSPFilters/source/Bessel.cpp"/>
+          <FILE id="nLlAZp" name="Biquad.cpp" compile="1" resource="0" file="../../C++ /DSPFilters-master/shared/DSPFilters/source/Biquad.cpp"/>
+          <FILE id="LxnMwW" name="Butterworth.cpp" compile="1" resource="0" file="../../C++ /DSPFilters-master/shared/DSPFilters/source/Butterworth.cpp"/>
+          <FILE id="s3HRsl" name="Cascade.cpp" compile="1" resource="0" file="../../C++ /DSPFilters-master/shared/DSPFilters/source/Cascade.cpp"/>
+          <FILE id="irgZ2h" name="ChebyshevI.cpp" compile="1" resource="0" file="../../C++ /DSPFilters-master/shared/DSPFilters/source/ChebyshevI.cpp"/>
+          <FILE id="BoEg0g" name="ChebyshevII.cpp" compile="1" resource="0" file="../../C++ /DSPFilters-master/shared/DSPFilters/source/ChebyshevII.cpp"/>
+          <FILE id="u5GqKz" name="Custom.cpp" compile="1" resource="0" file="../../C++ /DSPFilters-master/shared/DSPFilters/source/Custom.cpp"/>
+          <FILE id="fYVHPl" name="Design.cpp" compile="1" resource="0" file="../../C++ /DSPFilters-master/shared/DSPFilters/source/Design.cpp"/>
+          <FILE id="mnwmpU" name="Documentation.cpp" compile="1" resource="0"
+                file="../../C++ /DSPFilters-master/shared/DSPFilters/source/Documentation.cpp"/>
+          <FILE id="bi9IBT" name="Elliptic.cpp" compile="1" resource="0" file="../../C++ /DSPFilters-master/shared/DSPFilters/source/Elliptic.cpp"/>
+          <FILE id="f80nhG" name="Filter.cpp" compile="1" resource="0" file="../../C++ /DSPFilters-master/shared/DSPFilters/source/Filter.cpp"/>
+          <FILE id="SGWqrz" name="Legendre.cpp" compile="1" resource="0" file="../../C++ /DSPFilters-master/shared/DSPFilters/source/Legendre.cpp"/>
+          <FILE id="cpvhv2" name="Param.cpp" compile="1" resource="0" file="../../C++ /DSPFilters-master/shared/DSPFilters/source/Param.cpp"/>
+          <FILE id="J68Ouq" name="PoleFilter.cpp" compile="1" resource="0" file="../../C++ /DSPFilters-master/shared/DSPFilters/source/PoleFilter.cpp"/>
+          <FILE id="yMUWoh" name="RASTA.cpp" compile="1" resource="0" file="../../C++ /DSPFilters-master/shared/DSPFilters/source/RASTA.cpp"/>
+          <FILE id="sZjmnn" name="RBJ.cpp" compile="1" resource="0" file="../../C++ /DSPFilters-master/shared/DSPFilters/source/RBJ.cpp"/>
+          <FILE id="qIyOwj" name="RootFinder.cpp" compile="1" resource="0" file="../../C++ /DSPFilters-master/shared/DSPFilters/source/RootFinder.cpp"/>
+          <FILE id="YL6rji" name="State.cpp" compile="1" resource="0" file="../../C++ /DSPFilters-master/shared/DSPFilters/source/State.cpp"/>
+          <FILE id="obJINQ" name="Bessel.h" compile="0" resource="0" file="../../C++ /DSPFilters-master/shared/DSPFilters/include/DspFilters/Bessel.h"/>
+          <FILE id="dwa9jN" name="Biquad.h" compile="0" resource="0" file="../../C++ /DSPFilters-master/shared/DSPFilters/include/DspFilters/Biquad.h"/>
+          <FILE id="dUGX1D" name="Butterworth.h" compile="0" resource="0" file="../../C++ /DSPFilters-master/shared/DSPFilters/include/DspFilters/Butterworth.h"/>
+          <FILE id="t5IJWZ" name="Cascade.h" compile="0" resource="0" file="../../C++ /DSPFilters-master/shared/DSPFilters/include/DspFilters/Cascade.h"/>
+          <FILE id="Z8OQuT" name="ChebyshevI.h" compile="0" resource="0" file="../../C++ /DSPFilters-master/shared/DSPFilters/include/DspFilters/ChebyshevI.h"/>
+          <FILE id="scbweq" name="ChebyshevII.h" compile="0" resource="0" file="../../C++ /DSPFilters-master/shared/DSPFilters/include/DspFilters/ChebyshevII.h"/>
+          <FILE id="Ts8Lti" name="Common.h" compile="0" resource="0" file="../../C++ /DSPFilters-master/shared/DSPFilters/include/DspFilters/Common.h"/>
+          <FILE id="sWdlyK" name="Custom.h" compile="0" resource="0" file="../../C++ /DSPFilters-master/shared/DSPFilters/include/DspFilters/Custom.h"/>
+          <FILE id="XIRoXk" name="Design.h" compile="0" resource="0" file="../../C++ /DSPFilters-master/shared/DSPFilters/include/DspFilters/Design.h"/>
+          <FILE id="xpgvXH" name="Dsp.h" compile="0" resource="0" file="../../C++ /DSPFilters-master/shared/DSPFilters/include/DspFilters/Dsp.h"/>
+          <FILE id="TCRcWm" name="Elliptic.h" compile="0" resource="0" file="../../C++ /DSPFilters-master/shared/DSPFilters/include/DspFilters/Elliptic.h"/>
+          <FILE id="D9RkLV" name="Filter.h" compile="0" resource="0" file="../../C++ /DSPFilters-master/shared/DSPFilters/include/DspFilters/Filter.h"/>
+          <FILE id="SNEoHo" name="Layout.h" compile="0" resource="0" file="../../C++ /DSPFilters-master/shared/DSPFilters/include/DspFilters/Layout.h"/>
+          <FILE id="jQzX3O" name="Legendre.h" compile="0" resource="0" file="../../C++ /DSPFilters-master/shared/DSPFilters/include/DspFilters/Legendre.h"/>
+          <FILE id="ReUpa8" name="MathSupplement.h" compile="0" resource="0"
+                file="../../C++ /DSPFilters-master/shared/DSPFilters/include/DspFilters/MathSupplement.h"/>
+          <FILE id="OW0yMM" name="Params.h" compile="0" resource="0" file="../../C++ /DSPFilters-master/shared/DSPFilters/include/DspFilters/Params.h"/>
+          <FILE id="HOIuFt" name="PoleFilter.h" compile="0" resource="0" file="../../C++ /DSPFilters-master/shared/DSPFilters/include/DspFilters/PoleFilter.h"/>
+          <FILE id="GBgo4S" name="RASTA.h" compile="0" resource="0" file="../../C++ /DSPFilters-master/shared/DSPFilters/include/DspFilters/RASTA.h"/>
+          <FILE id="DHWqzL" name="RBJ.h" compile="0" resource="0" file="../../C++ /DSPFilters-master/shared/DSPFilters/include/DspFilters/RBJ.h"/>
+          <FILE id="JXX55Z" name="RootFinder.h" compile="0" resource="0" file="../../C++ /DSPFilters-master/shared/DSPFilters/include/DspFilters/RootFinder.h"/>
+          <FILE id="zbqoDe" name="SmoothedFilter.h" compile="0" resource="0"
+                file="../../C++ /DSPFilters-master/shared/DSPFilters/include/DspFilters/SmoothedFilter.h"/>
+          <FILE id="jVUzJL" name="State.h" compile="0" resource="0" file="../../C++ /DSPFilters-master/shared/DSPFilters/include/DspFilters/State.h"/>
+          <FILE id="o7FItk" name="Types.h" compile="0" resource="0" file="../../C++ /DSPFilters-master/shared/DSPFilters/include/DspFilters/Types.h"/>
+          <FILE id="MzmAFx" name="Utilities.h" compile="0" resource="0" file="../../C++ /DSPFilters-master/shared/DSPFilters/include/DspFilters/Utilities.h"/>
+        </GROUP>
+      </GROUP>
+      <FILE id="M6Up8t" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+      <FILE id="krJoUK" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" osxSDK="default" osxCompatibility="default" osxArchitecture="default"
+                       isDebug="1" optimisation="1" targetName="SpeakerManagementSystem"/>
+        <CONFIGURATION name="Release" osxSDK="default" osxCompatibility="default" osxArchitecture="default"
+                       isDebug="0" optimisation="2" targetName="SpeakerManagementSystem"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../C++ /JUCE-OSX/modules"/>
+        <MODULEPATH id="juce_events" path="../../C++ /JUCE-OSX/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../C++ /JUCE-OSX/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../C++ /JUCE-OSX/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../C++ /JUCE-OSX/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../C++ /JUCE-OSX/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../C++ /JUCE-OSX/modules"/>
+        <MODULEPATH id="juce_video" path="../../C++ /JUCE-OSX/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../C++ /JUCE-OSX/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../C++ /JUCE-OSX/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../C++ /JUCE-OSX/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../C++ /JUCE-OSX/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../C++ /JUCE-OSX/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../C++ /JUCE-OSX/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULES id="juce_audio_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_audio_devices" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_audio_formats" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_audio_processors" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_audio_utils" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_core" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_cryptography" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_data_structures" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_events" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_graphics" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_gui_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_gui_extra" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_opengl" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_video" showAllCode="1" useLocalCopy="0"/>
+  </MODULES>
+  <JUCEOPTIONS/>
+</JUCERPROJECT>
